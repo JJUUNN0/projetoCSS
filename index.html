@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -16,7 +16,7 @@
     <header class="main-header">
         <div>
             <a href="index.html" class="main-header__brand">
-                uHost
+                <img src="images/uhost-icon.png" alt="uHost your favorite hosting company">
             </a>
         </div>
         <nav class="main-nav">
@@ -33,12 +33,13 @@
             </ul>
         </nav>
     </header>
+    <main>
         <section id="product-overview">
             <h1>Get the freedom you deserve.</h1>
         </section>
         <section id="plans">
             <h1 class="section-title">Choose Your Plan</h1>
-            <div>
+            <div class="plan__list">
                 <article class="plan">
                     <h1 class="plan__title">FREE</h1>
                     <h2 class="plan__price">$0/month</h2>
@@ -54,7 +55,7 @@
                     </div>
                 </article>
                 <article class="plan plan--highlighted">
-                    <h1 class="plan_annotation">RECOMMENDED</h1>
+                    <h1 class="plan__annotation">RECOMMENDED</h1>
                     <h1 class="plan__title">PLUS</h1>
                     <h2 class="plan__price">$29/month</h2>
                     <h3>For ambitious projects.</h3>
@@ -85,7 +86,7 @@
             </div>
         </section>
         <section id="key-features">
-        <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+            <h1 class="section-title">Many Good Reasons to Stick Around</h1>
             <ul class="key-feature__list">
                 <li class="key-feature">
                     <div class="key-feature__image">
@@ -107,7 +108,7 @@
                 </li>
             </ul>
         </section>
-    </main> 
+    </main>
     <footer class="main-footer">
         <nav>
             <ul class="main-footer__links">
@@ -119,7 +120,7 @@
                 </li>
             </ul>
         </nav>
-    </footer>  
+    </footer>
 </body>
 
 </html>
